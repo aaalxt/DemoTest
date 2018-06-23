@@ -9,7 +9,7 @@ public class PayTest {
         System.out.println("支付成功");
     }
 
-    @Test(enabled = false)//忽略测试
+    @Test(enabled = true)//忽略测试
     private void PayTest2(){
         System.out.println("支付bu成功");
     }
