@@ -46,7 +46,7 @@
         </dependency>
 
 
-
+<!-- 
         <dependency>
             <groupId>com.taobao.hsf</groupId>
             <artifactId>hsfunit</artifactId>
@@ -57,7 +57,7 @@
             <groupId>com.taobao.hsf</groupId>
             <artifactId>LightApi</artifactId>
             <version>1.0.5</version>
-        </dependency>
+        </dependency> -->
 
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
