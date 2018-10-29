@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="test" configfailurepolicy="continue">
+    <test name="test">
+        <classes>
+            <!-- 事件管理-->
+            <class name="demo.searchTaskTest"/>
+
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>
+    </listeners>
+</suite>
