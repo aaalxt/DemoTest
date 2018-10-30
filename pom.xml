@@ -183,7 +183,11 @@
                     <forkMode>once</forkMode>
                     <argLine>-Dfile.encoding=UTF-8</argLine>
                     <!--<argLine>-javaagent:/Users/zhangzhen/Documents/Testtools/m2/com/alibaba/external/test.jmockit/0.999.11/test.jmockit-0.999.11.jar</argLine> -->
-                </configuration>
+                  <suiteXmlFiles>
+                 <suiteXmlFile>testng.xml</suiteXmlFile>
+               </suiteXmlFiles>
+
+                     </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
